@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Main page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body class="page">
+  <header class="page__header header wrap">
+    <a href="#" class="logo-link">
+      <img src="img/logo.svg" width="213" height="40" alt="Next Crop.">
+    </a>
+
+    <nav class="main-nav">
+      <ul class="main-nav__list nav">
+        <li class="nav__item">
+          <a href="#" class="nav__link">
+            Home
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">
+            About us
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">
+            Shop
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">
+            Services
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">
+            Contact
+          </a>
+        </li>
+      </ul>
+      <button class="main-nav__btn btn" type="button">Request a Demo</button>
+    </nav>
+  </header>
+  <main class="page__content">
+    <section class="hero">
+      <div class="hero__wrap">
+        <h1 class="hero__title">The&nbsp;Next Generation of&nbsp;Crops</h1>
+        <p class="hero__description">Improve your crops with reduced pesticides, fast growth yet still full of
+          nutritious elements</p>
+        <button class="btn hero__action" type="button">Get Started</button>
+      </div>
+    </section>
+
+    <section class="count">
+      <div class="wrap">
+        <h2 class="count__title">Monitor your farm</h2>
+        <ul class="count__list">
+          <li class="count__item count-item">
+            <img class="count-item__icon" src="img/icon-monitor-1.svg" alt="">
+            <p class="count-item__number">40,734</p>
+            <p class="count-item__text">Tons of Harvest</p>
+          </li>
+
+          <li class="count__item count-item">
+            <img class="count-item__icon" src="img/icon-monitor-2.svg" alt="">
+            <p class="count-item__number">8493</p>
+            <p class="count-item__text">Cattles</p>
+          </li>
+
+          <li class="count__item count-item">
+            <img class="count-item__icon" src="img/icon-monitor-3.svg" alt="">
+            <p class="count-item__number">22,000</p>
+            <p class="count-item__text">Acres of Land</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="products wrap">
+      <div class="products__text-wrap">
+        <h2 class="products__title">Our Products</h2>
+        <p class="products__description">Enjoy a wide range of fresh and organic products, right from our farms. You
+          will love them!!</p>
+        <button class="btn products__btn">View All Products</button>
+      </div>
+
+      <a class="products__card card products__card--vegetables" href="#">
+        <span class="card__title">Vegetables</span>
+      </a>
+      <a class="products__card card products__card--fruits" href="#">
+        <span class="card__title">Fruits</span>
+      </a>
+      <a class="products__card card products__card--spices" href="#">
+        <span class="card__title">Spices</span>
+      </a>
+      <a class="products__card card products__card--grains" href="#">
+        <span class="card__title">Grains</span>
+      </a>
+      <a class="products__card card products__card--dairy" href="#">
+        <span class="card__title">Dairy</span>
+      </a>
+    </section>
+
+    <section class="advantages">
+      <div class="wrap advantages__wrap">
+        <section class="advantages__video">
+          <h2 class="visually-hidden">Video about us</h2>
+          <div class="video">
+            <img class="video__preview" src="img/video-preview.jpg" alt="">
+            <button class="video__play-btn">
+              <img src="img/icon-play.svg" alt="">
+              <span class="visually-hidden">Click to play.</span>
+            </button>
+          </div>
+        </section>
+
+        <section class="advantages__list">
+          <h2 class="advantages__title">Why Choose us</h2>
+          <p class="advantages__description">Our world-class technology is built with advance features to ensure crops
+            are maintained under best conditions.</p>
+          <div class="advantages__tabs tabs">
+            <ul class="tabs__btn-list">
+              <li class="tabs__btn-item">
+                <button class="tabs__btn" type="button" id="advantages-tab-1">
+                  Advance Agriculture
+                </button>
+              </li>
+              <li class="tabs__btn-item">
+                <button class="tabs__btn" type="button" id="advantages-tab-2">
+                  Fresh Products
+                </button>
+              </li>
+              <li class="tabs__btn-item tabs__btn-item--current">
+                <button class="tabs__btn tabs__btn--current" type="button" id="advantages-tab-3">
+                  Healthy Foods
+                </button>
+              </li>
+              <li class="tabs__btn-item">
+                <button class="tabs__btn" type="button" id="advantages-tab-4">
+                  Vast Delivery Network
+                </button>
+              </li>
+            </ul>
+
+            <ul class="tabs__content-list">
+              <li class="visually-hidden tabs__content-item tab-content">
+                <img class="tab-content__icon" src="img/icon-healthy-food.svg" alt="">
+                <ul class="tab-content__list">
+                  <li class="tab-content__item">Track & control spending</li>
+                  <li class="tab-content__item">Simple to use mobile app</li>
+                  <li class="tab-content__item">24/7 customer support </li>
+                </ul>
+              </li>
+
+              <li class="visually-hidden tabs__content-item tab-content">
+                <img class="tab-content__icon" src="img/icon-healthy-food.svg" alt="">
+                <ul class="tab-content__list">
+                  <li class="tab-content__item">Track & control spending</li>
+                  <li class="tab-content__item">Simple to use mobile app</li>
+                  <li class="tab-content__item">24/7 customer support </li>
+                </ul>
+              </li>
+
+              <li class="tabs__content-item tab-content">
+                <img class="tab-content__icon" src="img/icon-healthy-food.svg" alt="">
+                <ul class="tab-content__list">
+                  <li class="tab-content__item">Track & control spending</li>
+                  <li class="tab-content__item">Simple to use mobile app</li>
+                  <li class="tab-content__item">24/7 customer support </li>
+                </ul>
+              </li>
+
+              <li class="visually-hidden tabs__content-item tab-content">
+                <img class="tab-content__icon" src="img/icon-healthy-food.svg" alt="">
+                <ul class="tab-content__list">
+                  <li class="tab-content__item">Track & control spending</li>
+                  <li class="tab-content__item">Simple to use mobile app</li>
+                  <li class="tab-content__item">24/7 customer support </li>
+                </ul>
+              </li>
+            </ul>
+
+          </div>
+        </section>
+      </div>
+    </section>
+
+
+    <section class="faq wrap">
+      <h2 class="faq__title">Frequently Asked Questions</h2>
+      <p class="faq__description">Cannot find answers here? Contact us at our <a href="#">Support</a></p>
+
+      <section class="faq__accordion accordion">
+        <div class="accordion__item">
+          <button class="accordion__name" type="button">Can I use myKanban for free?</button>
+          <div class="accordion__content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae purus mi. Aenean nec nunc risus.
+              Nam sit amet ligula ipsum. Suspendisse potenti.</p>
+          </div>
+        </div>
+
+        <div class="accordion__item accordion__item--open">
+          <button class="accordion__name" type="button">What happens when I get over the guest limit for personal
+            account?</button>
+          <div class="accordion__content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore possimus repellendus error,
+              reprehenderit eaque fuga fugit numquam expedita quo delectus rerum, earum quod totam necessitatibus qui
+              enim at magni ut.</p>
+          </div>
+        </div>
+
+        <div class="accordion__item">
+          <button class="accordion__name" type="button">Do you offer student discounts?</button>
+          <div class="accordion__content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ex odit voluptatibus enim
+              repudiandae animi pariatur minima quis, voluptas sunt totam distinctio quo perferendis autem aperiam,
+              consequuntur ipsa! Earum, quia?</p>
+          </div>
+        </div>
+
+        <div class="accordion__item">
+          <button class="accordion__name" type="button">What happends if my payment fails?</button>
+          <div class="accordion__content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda fugiat ipsam fuga quidem fugit
+              deleniti consequatur officia molestias magnam, debitis magni hic saepe. Dolorem reprehenderit ullam illum
+              minus libero saepe.</p>
+          </div>
+        </div>
+
+        <div class="accordion__item">
+          <button class="accordion__name" type="button">How is my payment processed?</button>
+          <div class="accordion__content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat laborum ipsa ipsam maxime aut tempore
+              ex qui accusamus officiis! Sunt fuga placeat ipsum harum laborum autem quos voluptate tempore eaque.</p>
+          </div>
+        </div>
+
+        <div class="accordion__item">
+          <button class="accordion__name" type="button">Can I control what other team members can see?</button>
+          <div class="accordion__content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat laborum ipsa ipsam maxime aut tempore
+              ex qui accusamus officiis! Sunt fuga placeat ipsum harum laborum autem quos voluptate tempore eaque.</p>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="contacts">
+      <div class="wrap contacts__wrap">
+        <section class="contacts__address">
+          <h2 class="contacts__title">Contact us</h2>
+          <p class="contacts__description">Do you have any queries? You can visit our office during business <br>
+            hours OR send us a query.</p>
+          <div>
+            <p class="contacts__item contacts__item--date-time">
+              Mon – Fri <br>
+              09:00 AM – 09:00 PM
+            </p>
+            <p class="contacts__item contacts__item--address">
+              591 Lakewood Rd <br>
+              Four Oaks, North Carolina(NC), 27524
+            </p>
+            <p class="contacts__item contacts__item--phone">(123) 123-1234</p>
+            <p class="contacts__item contacts__item--email">info@nextcrop.com</p>
+          </div>
+        </section>
+
+        <section class="contacts__form">
+          <form action="#" class="form">
+            <h2 class="form__title">Submit your queries...</h2>
+
+            <label class="form__label">
+              Full Name
+              <input type="text" class="form__field" placeholder="Amuzer Firdousi">
+            </label>
+
+            <label class="form__label">
+              Email
+              <input type="email" class="form__field" placeholder="amuzer@greelogix.com">
+            </label>
+
+            <label class="form__label">
+              Company
+              <input type="text" class="form__field" placeholder="Greelogix">
+            </label>
+
+            <label class="form__label">
+              Message
+              <textarea class="form__field form__field--message"
+                placeholder="Hello there, this is Amuzer..."></textarea>
+            </label>
+
+            <button class="btn form__btn" type="submit">Submit</button>
+
+
+          </form>
+        </section>
+      </div>
+    </section>
+
+    <section class="reviews">
+      <div class="wrap">
+        <section class="reviews__slider slider">
+          <h2 class="visually-hidden">Whatch what people say.</h2>
+          <ul class="slider__list">
+            <li class="slider__item slide">
+              <h3 class="slide__user-name">Amuzer Firdousi</h3>
+              <img class="slide__user-avatar" src="img/avatar-1.jpg" alt="picture of Amuzer Firdousi">
+              <p class="slide__user-position">CEO @ DietDining</p>
+              <blockquote class="slide__comment">
+                Dots provided reliable system for our food ordering company and I couldnt be happy more
+              </blockquote>
+            </li>
+
+            <li class="slider__item slide">
+              <h3 class="slide__user-name">John Doe</h3>
+              <img class="slide__user-avatar" src="img/avatar-2.jpg" alt="picture of John Doe">
+              <p class="slide__user-position">VP @ Together Tough</p>
+              <blockquote class="slide__comment">
+                Professional, responsive, and able to keep up with ever-changing demand and tight deadlines: That's how
+                I would describe Dots!
+              </blockquote>
+            </li>
+
+            <li class="slider__item slide">
+              <h3 class="slide__user-name">Emma Rocks</h3>
+              <img class="slide__user-avatar" src="img/avatar-3.jpg" alt="picture of Emma Rocks">
+              <p class="slide__user-position">CEO @ Rocks</p>
+              <blockquote class="slide__comment">
+                We have seen a notable increase in our leads since we began using their services in 2018
+              </blockquote>
+            </li>
+
+            <li class="slider__item slide">
+              <h3 class="slide__user-name">Maya Ali</h3>
+              <img class="slide__user-avatar" src="img/avatar-4.jpg" alt="picture of Maya Ali">
+              <p class="slide__user-position">COO @ Extreme Habits</p>
+              <blockquote class="slide__comment">
+                Dots not only revitalized our brand, but saved our business from the brink of ruin by optimizing our
+                website for search
+              </blockquote>
+            </li>
+
+            <li class="slider__item slide">
+              <h3 class="slide__user-name">Amuzer Firdousi</h3>
+              <img class="slide__user-avatar" src="img/avatar-1.jpg" alt="picture of Amuzer Firdousi">
+              <p class="slide__user-position">CEO @ DietDining</p>
+              <blockquote class="slide__comment">
+                Dots provided reliable system for our food ordering company and I couldnt be happy more
+              </blockquote>
+            </li>
+
+            <li class="slider__item slide">
+              <h3 class="slide__user-name">John Doe</h3>
+              <img class="slide__user-avatar" src="img/avatar-2.jpg" alt="picture of John Doe">
+              <p class="slide__user-position">VP @ Together Tough</p>
+              <blockquote class="slide__comment">
+                Professional, responsive, and able to keep up with ever-changing demand and tight deadlines: That's how
+                I would describe Dots!
+              </blockquote>
+            </li>
+
+            <li class="slider__item slide">
+              <h3 class="slide__user-name">Emma Rocks</h3>
+              <img class="slide__user-avatar" src="img/avatar-3.jpg" alt="picture of Emma Rocks">
+              <p class="slide__user-position">CEO @ Rocks</p>
+              <blockquote class="slide__comment">
+                We have seen a notable increase in our leads since we began using their services in 2018
+              </blockquote>
+            </li>
+
+            <li class="slider__item slide">
+              <h3 class="slide__user-name">Maya Ali</h3>
+              <img class="slide__user-avatar" src="img/avatar-4.jpg" alt="picture of Maya Ali">
+              <p class="slide__user-position">COO @ Extreme Habits</p>
+              <blockquote class="slide__comment">
+                Dots not only revitalized our brand, but saved our business from the brink of ruin by optimizing our
+                website for search
+              </blockquote>
+            </li>
+          </ul>
+        </section>
+
+        <section class="cta">
+          <div class="cta__text">
+            <h2 class="cta__title">Having trouble deciding?</h2>
+            <p class="cta__description">
+              If you are having any trouble deciding, do not worry! You can simply request <br> a demo for <b>FREE</b> and decide
+              after that
+            </p>
+          </div>
+          <div class="cta__action">
+            <button class="btn cta__button" type="button">Request a Demo</button>
+          </div>
+        </section>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="page__footer footer">
+    <div class="wrap footer__wrap">
+      <a href="#" class="logo-link">
+        <img src="img/logo.svg" width="213" height="40" alt="Next Crop.">
+      </a>
+
+      <p class="copyright">
+        © Copyright 2022 NextCrop <br>
+        All Rights Reserved.
+      </p>
+    </div>
+  </footer>
+
+</body>
+
+</html>

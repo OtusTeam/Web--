@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <title>Main page</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body class="page">
+  <nav class="page-nav main-nav">
+    <ul class="main-nav__list">
+      <li class="main-nav__item">
+        <a href="#" class="main-nav__link">
+          <img class="main-nav__icon" src="img/icon-home.svg" width="40" height="40" alt="Home.">
+        </a>
+      </li>
+      <li class="main-nav__item">
+        <a href="#" class="main-nav__link">
+          <img class="main-nav__icon" src="img/icon-search.svg" width="40" height="40" alt="Search.">
+        </a>
+      </li>
+      <li class="main-nav__item">
+        <a href="#" class="main-nav__link">
+          <img class="main-nav__icon" src="img/icon-message.svg" width="40" height="40" alt="Messages.">
+        </a>
+      </li>
+      <li class="main-nav__item">
+        <a href="#" class="main-nav__link">
+          <img class="main-nav__icon" src="img/icon-shopping-cart.svg" width="40" height="40" alt="Cart.">
+        </a>
+      </li>
+    </ul>
+
+    <ul class="main-nav__list socials">
+      <li class="socials__item">
+        <a href="#" class="socials__link">
+          <img class="socials__icon" src="img/icon-instagram.svg" width="40" height="40" alt="instagram.">
+        </a>
+      </li>
+      <li class="socials__item">
+        <a href="#" class="socials__link">
+          <img class="socials__icon" src="img/icon-twitter.svg" width="40" height="40" alt="twitter.">
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="content">
+    <nav class="content__nav nav">
+      <a href="#" class="nav__logo logo">
+        <img class="logo__img" width="86" height="31" src="img/logo.svg" alt="Nike.">
+      </a>
+
+      <ul class="nav__menu menu">
+        <li class="menu-item">
+          <a href="#" class="menu-link">
+            New Releaes
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#" class="menu-link">
+            Men
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#" class="menu-link">
+            Women
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#" class="menu-link">
+            Sales
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#" class="menu-link">
+            Collection
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <main class="content__wrapper main">
+      <div class="main__picture">
+        <img class="product-img" src="img/product.png" alt="Product image">
+        
+        <section class="slider">
+          <ul class="slider__toggler toggler">
+            <li class="toggler__item">
+              <button class="toggler__btn">
+                <img src="img/icon-arrow-circle-left.svg" alt="previous slide" class="toggler__icon">
+              </button>
+            </li>
+            <li class="toggler__item">
+              <button class="toggler__btn">
+                <img src="img/icon-arrow-circle-right.svg" alt="next slide" class="toggler__icon">
+              </button>
+            </li>
+          </ul>
+
+          <ul class="slider__slides-list slides-list">
+            <li class="slides-list__item">
+              <img class="slides-list__image" src="img/slide1.png" alt="Product image 1">
+            </li>
+            <li class="slides-list__item">
+              <img class="slides-list__image" src="img/slide2.png" alt="Product image 2">
+            </li>
+            <li class="slides-list__item">
+              <img class="slides-list__image" src="img/slide3.png" alt="Product image 3">
+            </li>
+            <li class="slides-list__item">
+              <img class="slides-list__image" src="img/slide1.png" alt="Product image 4">
+            </li>
+          </ul>
+        </section>
+      </div>
+
+      <section class="main__description about">
+        <h1 class="about__title">Nike&nbsp;Air KD14 (Team)</h1>
+        <p class="about__technology about__technology--sustainable">Sustainable Material</p>
+        <div class="about__raiting about__raiting--4">
+          <img src="img/icon-star.svg" alt="">
+          <img src="img/icon-star.svg" alt="">
+          <img src="img/icon-star.svg" alt="">
+          <img src="img/icon-star.svg" alt="">
+          <img src="img/icon-star.svg" alt="">
+          <span class="visually-hidden">4 stars from 5</span>
+        </div>
+        <p class="about__price">750</p>
+
+        <div class="about__actions">
+          <button class="button button--secondary" type="button">Favourite</button>
+          <button class="button button--primary" type="button">Add to cart</button>
+        </div>
+
+        <section class="about__description description">
+          <h2 class="description__title">Product Information</h2>
+          <p class="description__text">Air Jordan is an American brand of basketball shoes, athletic, casual, and style clothing produced by Nike. Founded in Chicago, Air Jordan was created for Hall of Fame former basketball player Michael Jordan during his time with the Chicago Bulls.</p>
+        </section>
+
+        <button class="button button--tertiary">View Product Details </button>
+
+      </section>
+    </main>
+  </div>
+</body>
+</html>
